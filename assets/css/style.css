@@ -1,0 +1,21 @@
+body {
+    background-color: #efeee7;
+    margin: 0;
+    padding: 0;
+    font-family: "Georga", "Times New Roman",
+        Times, serif;
+    font-size: 18px;
+    Line-height: 150%;
+}
+#ProfilePicture {
+    width: 200px;
+    height: 200px;
+    padding-right: 30px;
+    float: left;
+}
+.header {
+    padding-top: 30px;
+}
+#toptags {
+    
+}
