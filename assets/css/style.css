@@ -32,9 +32,12 @@ body {
 }
 header {
     width: 960px;
-    background-color: lightgray;
+    background-color: white;
     margin: 0px auto;
     height: 75px;
+}
+.topbar {
+    background-color: white;
 }
 .links {
     float: right;
@@ -146,4 +149,14 @@ footer {
     border-top: 8px solid #4aaaa5;
     height: 50px;
     flex-shrink: 0;
+}
+
+/*Portfolio Page*/
+.col {
+    padding-top: 30px;
+}
+
+.prjectpic {
+    width: 100px;
+    height: 100px;
 }

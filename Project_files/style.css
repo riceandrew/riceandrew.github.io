@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.parallax-container{
+    height: 100vh;
+}
+section{
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .content{
+    max-width: 1000px;
+    margin: auto;
+}
+.teamLogo {
+    height: 150px;
+    width: 150px;
+}
+
+#infoOne{
+    font-size: x-large;    
+}
+
+#infoTwo{
+    font-size: x-large;    
+}
+
+#infoThree{
+    font-size: x-large;    
+}
+
+#infoFour{
+    font-size: x-large;    
+}
+
+#infoFive{
+    font-size: x-large;  
+    padding-top: 70px;  
+}
+
+#infoSix{
+    font-size: x-large;    
+}
+
+#infoSeven{
+    font-size: x-large;    
+}
+
+#infoEight{
+    font-size: x-large;    
+}
+
+#infoNine{
+    font-size: x-large;    
+}
+
+#nbaLogo{
+    height: 100%;
+}
+
+.backImage {
+    background-size: cover;
+    height: 20vh;  
+}
+
+.iframe{
+    float: center;
+}
