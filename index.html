@@ -1,33 +1,62 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <!--Required metat tags-->
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <!--Bootstrap/CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href= "assets/style.css">
+    <script src="assets/RanPass.js"></script>
+        <title>Random Password Generator</title>
+
 </head>
 
 <body>
-    <div class=topbar>
-        <header class="header clearfix">
-            <div class="title">Andrew Rice</div>
-            <div class="links"><a id="aboutstyle" href="index.html">About Me</a> | <a id="portfoliostyle"
-                    href="portfolio.html">Portfolio</a> | <a id="contactstyle" href="contact.html">Contact</a></div>
-        </header>
-    </div>
-    <div class="container clearfix">
-        <div id="boxstyle">
-            <h2> About me </h2>
-            <img id="ProfilePicture" src="assets/images/IMG_1773.PNG">
-            <p id="Text">I was born in Germany to a military family. I attended Texas State University where I have a
-                degree in Political Science and Geography.
-                I live in Ausitn, TX with my fiancee and our two dogs.
-                I currenty work at the City of Austin in the
-                Historic Presrevation Office.
-                Learning how to code is an interesting and new challenge to me that I would love to master.
-                There are a very limited opportunities for improvment at the City of Austin, so I am eager to unlock my
-                full
-                potential.</p>
+    <!--Creates Navbar-->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Random Password Generator</a>
+    </nav>
+    <!--Creates Main Content-->
+    <div class="container">
+        <div class="row">
+            <!--Allows for specificity-->
+            <div class="col-lg-8 col-sm-12 mx-auto">
+                <div class="content">
+                    <h4>Random Password Generator</h4>
+                    <br />
+                    <!--Creates open text field-->
+                    <form name="rn">
+                    <input type="text" name="Password" id="Password"/>
+                    </form>
+                    <br />
+                    <button onclick="createpassword()">Generate</button>
+                    <br />
+                    <button onclick="copypassword()">Copy to Clipboard</button>
+                    <br />
+                    <form name="cp">
+                    <input type="text" name="clipboard" id="clipboard">
+                    </form>
+
+                </div>
+
+            </div>
         </div>
     </div>
-    <footer class="footer"></footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
+
+
+</html>
